@@ -1,0 +1,11 @@
+.well{
+    padding: 8px;
+}
+.img-thumbnail {
+    height: 200px;
+    width: 200px;
+    overflow: hidden;
+}
+img.artist-thumb {
+    max-height: 500px;
+}

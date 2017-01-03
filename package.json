@@ -1,6 +1,6 @@
 {
   "name": "spotify-app",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "license": "MIT",
   "angular-cli": {},
   "scripts": {
@@ -43,5 +43,23 @@
     "tslint": "^4.0.2",
     "typescript": "~2.0.3",
     "webdriver-manager": "10.2.5"
-  }
+  },
+  "description": "This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.22-1.",
+  "main": "app",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jwill9999/SpotifyApp.git"
+  },
+  "keywords": [
+    "spotify",
+    "app",
+    "angular2",
+    "angular",
+    "search"
+  ],
+  "author": "jason williams",
+  "bugs": {
+    "url": "https://github.com/jwill9999/SpotifyApp/issues"
+  },
+  "homepage": "https://github.com/jwill9999/SpotifyApp#readme"
 }
