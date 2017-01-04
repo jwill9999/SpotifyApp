@@ -1,9 +1,70 @@
-
-.album-thumb {
-    max-width: 300px;
-    
+@media only screen and (min-width:300px) and (max-width: 755px) {
+  .album-thumb {
+    height: auto;
+    width: 98%;
+  }
+  .artistName {
+    font-size: 46px;
+    font-weight: bold;
+  }
+  h2 {
+    font-size: 18px;
+  }
+  h5 {
+    font-size: 14px;
+  }
 }
-.text1 {
-    padding-top: 10%;
-    padding-right: 460px;
+
+@media only screen and (min-width:756px) and (max-width: 900px) {
+  .album-thumb {
+    height: auto;
+    width: 80%;
+  }
+  .artistName {
+    font-size: 66px;
+    font-weight: bold;
+  }
+  h2 {
+    font-size: 32px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  h6 {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (min-width:901px) and (max-width: 1199px) {
+  .artistName {
+    font-size: 66px;
+    font-weight: bold;
+  }
+  h2 {
+    font-size: 36px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 3000px) {
+  .album-thumb {
+    height: auto;
+    width: 80%;
+  }
+  .text1 {
+    padding-right: 700px;
+    padding-top: 30px;
+  }
+  h2 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-weight: bold;
+  }
+  .artistName {
+    font-size: 72px;
+    font-weight: bold;
+  }
+  h5 {
+    padding-bottom: 20px;
+  }
 }
