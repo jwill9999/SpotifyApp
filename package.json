@@ -57,7 +57,11 @@
     "angular",
     "search"
   ],
-  "author": "jason williams",
+  "author": {
+    "name": "Jason Williams",
+    "email": "jwill9999@icloud.com"
+ 
+  },
   "bugs": {
     "url": "https://github.com/jwill9999/SpotifyApp/issues"
   },
