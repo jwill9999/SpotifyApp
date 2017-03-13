@@ -1,10 +1,10 @@
 <h1>Need Music?</h1>
-<p class="lead">Use the ngSpotify app to browse new releases and find your favorite songs<br> All you get is this text and a mostly barebones HTML document.</p>
+<p class="lead">Use the ngSpotify app to browse new releases and find your favorite songs<br> Type in your Favorite Artist and play your favorite tunes.</p>
 
 <form>
     <div class="form-group">
-        <input class="form-control" type="text" placeholder="Search Artists..." [(ngModel)]="searchStr" name="searchStr" (keyup)="searchMusic()">    
-    </div>    
+        <input class="form-control" type="text" placeholder="Type Here to Search Artists..." [(ngModel)]="searchStr" name="searchStr" (keyup)="searchMusic()">
+    </div>
 </form>
 
 <div *ngIf="searchRes">
@@ -15,10 +15,10 @@
                     <h4><a routerLink="/artist/{{artist.id}}">{{artist.name}}</a></h4>
                     <div>
                         <strong>Genres: </strong>
-                        <span *ngFor="let genre of artist.genres">{{genre}}</span>    
-                    </div>  
-                </div>    
-            </div>    
-        </div> 
-    </div>    
+                        <span *ngFor="let genre of artist.genres">{{genre}}</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
