@@ -1,6 +1,27 @@
-# SpotifyApp
+# Angular Spotify Application Example
 
-This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.22-1.
+
+```
+> git clone https://github.com/jwill9999/SpotifyApp.git
+> cd SpotifyApp
+> npm install
+> npm start
+```
+
+## Project preview
+
+![](./public/images/spotify2.png)
+
+![](./public/images/spotify1.png)
+
+![](./public/images/spotify3.png)
+
+## Spotify Application
+
+Made using Angular and the angular cli. Search the Spotify api for Albums and Artists. All albums avaialable will be displayed and you can view the Albums and its singles. Play the single in your browser or visit spotify via the app.
+
+
+<hr>
 
 ## Development server
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
